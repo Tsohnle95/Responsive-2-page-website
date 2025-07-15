@@ -1,6 +1,15 @@
 # Responsive-2-page-website
 A mobile-first, responsive website built with HTML5 and CSS3. Developed as part of my NAIT web development coursework, it features breakpoints for mobile, tablet, and desktop layouts.
 
+## 🖼️ Screenshots
+
+| Desktop View | Mobile View |
+|--------------|-------------|
+| <img src="img/desktop-preview.png" width="600"/> | <img src="img/mobile-preview.png" width="150"/> |
+
+## 🚀 Live Demo
+[View on GitHub Pages](https://tsohnle95.github.io/Responsive-2-page-website/) 
+
 ## 🔧 Technologies Used
 - HTML5
 - CSS3
@@ -20,5 +29,3 @@ A mobile-first, responsive website built with HTML5 and CSS3. Developed as part 
 - Structuring multi-page websites
 - Mobile-first development best practices
 
-## 🚀 Live Demo
-[View on GitHub Pages](https://tsohnle95.github.io/Responsive-2-page-website/) 
