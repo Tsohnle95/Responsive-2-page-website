@@ -20,3 +20,5 @@ A mobile-first, responsive website built with HTML5 and CSS3. Developed as part 
 - Structuring multi-page websites
 - Mobile-first development best practices
 
+## 🚀 Live Demo
+[View on GitHub Pages](https://tsohnle95.github.io/Responsive-2-page-website/) 
