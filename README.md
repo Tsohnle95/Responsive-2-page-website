@@ -8,7 +8,7 @@ A mobile-first, responsive website built with HTML5 and CSS3. Developed as part 
 | <img src="img/desktop-preview.png" width="600"/> | <img src="img/mobile-preview.png" width="150"/> |
 
 ## 🚀 Live Demo
-[View on GitHub Pages](https://tsohnle95.github.io/Responsive-2-page-website/) 
+[View on GitHub Pages](https://tsohnle95.github.io/responsive-2-page-website/) 
 
 ## 🔧 Technologies Used
 - HTML5
