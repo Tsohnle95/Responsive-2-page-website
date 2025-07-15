@@ -1,0 +1,745 @@
+:root {
+    --black: #111111;
+    --blue-grey-50: #ECEFF1;
+    --blue-grey-100: #CFD8DC;
+    --blue-grey-400: #78909C;
+    --blue-grey-200: #B0BEC5;
+    --blue-grey-800: #37474F;
+    --blue-grey-900: #263238;
+    --white: #FFFFFF;
+    --arial: Arial, Helvetica, sans-serif;
+    --inter: "Inter", serif;
+    --georgia: Georgia, 'Times New Roman', Times, serif;
+}
+
+/***************************** utility classes *****************************/
+
+.inner-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+body {
+    color: #000;
+    font-family: var(--arial);
+    line-height: 1.5;
+}
+
+/***************************** Header *****************************/
+
+header img {
+    width: 85%;
+    max-width: 20rem;
+    display: block;
+    margin: 0 auto;
+}
+
+header ul {
+    display: flex;
+    gap: 3.5rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+header,
+footer {
+    background-color: var(--black);
+    color: #fff;
+}
+
+/***************************** Hero area *****************************/
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--blue-grey-50);
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+.hero p {
+    margin-bottom: 3rem;
+}
+
+.hero h1 {
+    line-height: 3.375rem;
+    font-size: 2.25rem;
+    font-family: var(--inter);
+    margin-bottom: 1.5rem;
+    margin-top: 2rem;
+}
+
+.button {
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: .375rem;
+    padding: 1rem 1rem;
+    margin-top: 2.25rem;
+    margin-bottom: 3rem;
+}
+
+.hero img {
+    border-radius: .5rem;
+    margin: 3rem 0;
+}
+
+/***************************** Creating spaces section *****************************/
+
+.creating-spaces {
+    font-family: var(--inter);
+    display: flex;
+    flex-direction: column;
+}
+
+.creating-spaces div {
+    margin-bottom: 4rem;
+    text-align: left;
+}
+
+.creating-spaces h2 {
+    font-size: 2.25rem;
+    line-height: 3.375rem;
+    margin-bottom: 2.75rem;
+    text-align: center;
+    width: 85%;
+    align-self: center;
+}
+
+.creating-spaces>p {
+    margin-bottom: 3.5rem;
+    text-align: center;
+}
+
+h3 {
+    font-family: var(--inter);
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+/***************************** Blockquote section *****************************/
+
+blockquote {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--blue-grey-400);
+    color: var(--white);
+    text-align: center;
+}
+
+blockquote p:first-of-type {
+    font-size: 2.25rem;
+    margin: 3rem 0;
+    max-width: 15ch;
+}
+
+blockquote p:nth-of-type(3) {
+    margin: 1rem 0;
+}
+
+/***************************** your-world section *****************************/
+
+.your-world {
+    background-color: var(--blue-grey-100);
+    text-align: center;
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.your-world h2,
+.subscribe h2 {
+    font-family: var(--inter);
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 2.25rem;
+    width: 85%;
+    justify-self: center;
+    margin-bottom: 1.5rem;
+}
+
+.your-world p {
+    margin-bottom: 6rem;
+    justify-self: center;
+    text-align: center;
+}
+
+.your-world h4 {
+    display: inline-block;
+}
+
+.your-world ul span {
+    display: inline;
+    font-weight: bold;
+
+}
+
+.your-world li {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.your-world ul {
+    margin-bottom: 2rem;
+}
+
+/***************************** residential div section *****************************/
+
+.residential img {
+    margin: 2rem 0 6rem 0;
+}
+
+.residential img,
+.commercial img {
+    width: 100%;
+}
+
+.residential {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.residential h3,
+.commercial h3 {
+    margin-right: 5rem;
+}
+
+/***************************** commercial div section *****************************/
+
+.commercial {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.commercial img {
+    margin-top: 2.5rem;
+}
+
+/***************************** Subscribe section *****************************/
+
+.subscribe {
+    background-color: var(--blue-grey-800);
+    text-align: center;
+    font-family: var(--inter);
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe h2 {
+    margin: 4rem 0 1rem 0;
+}
+
+.subscribe div {
+    background-color: var(--white);
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+    width: 100%;
+}
+
+.subscribe .inner-container {
+    margin: 0 2rem;
+}
+
+/***************************** Footer section *****************************/
+
+footer {
+    font-family: var(--inter);
+    text-align: center;
+}
+
+footer img {
+    display: block;
+    margin: 0 auto;
+}
+
+footer .flex-container {
+    margin-top: 5.5rem;
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+}
+
+footer p {
+    margin: 5rem 0 3rem 0;
+    color: var(--blue-grey-200);
+}
+
+footer a {
+    font-size: .75rem;
+}
+
+footer ul li {
+    margin: .5rem 0;
+}
+
+footer span {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.footer-logo {
+    display: block;
+    margin: 0 auto;
+    width: 85%;
+    max-width: 23rem;
+}
+
+/***************************** Media Queries 768PX *****************************/
+
+@media screen and (min-width: 768px) {
+
+    /* header */
+    header .inner-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem 2rem;
+    }
+
+    header img {
+        margin: unset;
+    }
+
+    header ul {
+        gap: 2rem;
+        align-items: center;
+        margin: unset;
+    }
+
+    /* creating spaces section */
+    .creating-spaces .special {
+        display: block;
+    }
+
+    .creating-spaces h2 {
+        width: 100%;
+    }
+
+    .flex-container {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    .creating-spaces div {
+        margin-bottom: .5rem;
+    }
+
+    blockquote p:first-of-type {
+        max-width: none;
+    }
+
+    .your-world p {
+        max-width: none;
+    }
+
+    .your-world .inner-container {
+        padding: 0 2rem;
+    }
+
+    /* residential architecture subsection */
+    .residential {
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+
+    .your-world li {
+        max-width: none;
+    }
+
+    .residential img {
+        width: 50%;
+        margin: unset;
+    }
+
+    /* commercial architecture subsection */
+    .commercial {
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+
+    .commercial img {
+        width: 50%;
+    }
+
+    /* subscribe section */
+    .subscribe div {
+        width: 65%;
+        margin: 0 auto;
+    }
+
+    /* footer */
+    .test {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .footer-logo {
+        width: 15.5rem;
+        margin: unset;
+    }
+
+    footer .flex-container {
+        margin-top: 3rem;
+    }
+}
+
+/***************************** Media Queries 1280PX *****************************/
+
+@media screen and (min-width: 1280px) {
+
+    /* header */
+    header {
+        padding: 2rem 10rem;
+    }
+
+    /* hero */
+    .hero p {
+        max-width: 85%;
+        margin: 0 auto 3rem auto;
+    }
+
+    /*creating spaces section */
+    .creating-spaces {
+        padding: 0 7rem;
+    }
+
+    .creating-spaces .flex-container {
+        display: block;
+        margin-bottom: 4rem;
+    }
+
+    .for-large-media-query {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .creating-spaces .flex-container .for-large-media-query div {
+        width: calc((100% / 3) - (2rem / 3));
+    }
+
+    /*blockquote section */
+    blockquote .inner-container p:first-of-type {
+        max-width: 50ch;
+    }
+
+    /* your world section */
+    .your-world {
+        padding-bottom: 2rem;
+    }
+
+    .your-world p {
+        max-width: 110ch;
+    }
+
+    .residential,
+    .commercial {
+        display: block;
+        text-align: left;
+    }
+
+    .residential ul li,
+    .commercial ul li {
+        max-width: 50ch;
+    }
+
+    .residential-commercial-flex {
+        display: flex;
+        gap: 4rem;
+        padding: 0 6rem;
+    }
+
+    .residential-commercial-flex>div {
+        flex: 1;
+    }
+
+    .residential {
+        order: 2;
+    }
+
+    img.balconypic {
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    .commercial img {
+        width: 100%;
+        margin: unset;
+        margin-top: 3rem;
+    }
+
+    /* subscribe section */
+    .subscribe div {
+        width: 55%;
+    }
+
+    /* footer */
+    .test {
+        justify-content: space-around;
+        gap: 15rem;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer .flex-container {
+        gap: 6rem;
+        margin-right: 10rem;
+    }
+
+    footer p {
+        padding: 0 7rem;
+        margin: 5rem auto 1rem auto;
+    }
+
+    img.footer-logo {
+        width: 18rem;
+    }
+}
+
+/************************************************************** PAGE TWO - art gallery **************************************************************/
+
+.art-gallery {
+    background-color: var(--blue-grey-50);
+}
+
+.art-gallery h2 {
+    text-align: center;
+    font-size: 2.25rem;
+    margin: 2.5rem 0 3rem 0;
+}
+
+.art-gallery h3 {
+    margin-top: 3rem;
+}
+
+.art-gallery .inner-container p:first-of-type {
+    margin-bottom: 2rem;
+}
+
+/***************************** Gallery blockquote *****************************/
+
+.gallery blockquote {
+    background-color: var(--white);
+    color: #000000;
+    font-size: 2.25rem;
+    padding: 2.5rem;
+    font-family: var(--inter);
+}
+
+/***************************** GALLERY CULTURAL EXCHANGE SECTION *****************************/
+
+.cultural {
+    background-color: var(--blue-grey-400);
+    color: white;
+}
+
+.cultural h2 {
+    font-size: 2.25rem;
+    font-weight: 300;
+    font-family: var(--georgia);
+    margin: 3rem 0 1rem 0;
+}
+
+.cultural p {
+    font-family: var(--inter);
+    font-weight: 200;
+    margin-bottom: 1.5rem;
+}
+
+/***************************** GALLERY FEATURES AND HIGHLIGHTS SECTION *****************************/
+
+.features {
+    color: var(--white);
+    background-color: var(--blue-grey-900);
+    font-family: var(--inter);
+    font-weight: 300;
+}
+
+.features h2 {
+    font-size: 2.25rem;
+    font-weight: 200;
+    margin: 2rem 0;
+    padding-right: 6rem;
+    letter-spacing: .1rem;
+    font-family: var(--inter);
+}
+
+.features img {
+    min-width: 100%;
+    margin-bottom: 2rem;
+}
+
+.features ul {
+    list-style-type: disc;
+    margin-bottom: 3rem;
+}
+
+.features li {
+    margin-bottom: 1rem;
+    font-weight: 300;
+}
+
+.features span {
+    font-weight: bold;
+}
+
+.features p {
+    margin-bottom: 2rem;
+}
+
+.features figure {
+    margin-bottom: 2rem;
+}
+
+/***************************** Gallery Media Queries 768PX *****************************/
+
+@media screen and (min-width: 768px) {
+
+    /* art gallery */
+    .art-gallery .inner-container>div:nth-of-type(1),
+    .art-gallery .inner-container>div:nth-of-type(2) {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .art-gallery .inner-container>div:nth-of-type(1) img {
+        min-width: calc(100% / 2 - 1rem);
+        height: 50%;
+    }
+
+    .art-gallery .inner-container>div h3 {
+        margin: 0 0 1rem 0;
+    }
+
+    figure {
+        min-width: calc(100% / 2 - 1rem);
+        order: 2;
+    }
+
+    figure img {
+        width: calc(100% - 1rem);
+        margin-top: .5rem;
+    }
+
+    /* A hub for cultural exchange */
+    .cultural .inner-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    .cultural {
+        padding-bottom: 2rem;
+    }
+
+    .cultural .inner-container h2 {
+        margin: 2.5rem 0 0 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .cultural .inner-container p {
+        width: calc((100% / 2) - (2rem / 2));
+        margin: unset;
+    }
+
+    /* features and highlights */
+    .features .inner-container>div {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .features h2 {
+        text-align: center;
+        margin-bottom: 2rem;
+        font-weight: 300;
+        padding: unset;
+    }
+
+    .features ul {
+        padding-left: 1rem;
+    }
+
+    .features span {
+        font-weight: unset;
+    }
+
+    .features .inner-container>div img {
+        min-width: calc((100% / 2) - (1rem / 2));
+    }
+
+    .features figure img {
+        width: 100%;
+        margin: unset;
+    }
+}
+
+/***************************** Gallery Media Queries 1280PX *****************************/
+
+@media screen and (min-width: 1280px) {
+
+    /* art gallery */
+    .art-gallery {
+        padding: 0 7rem 2rem 7rem;
+    }
+
+    .art-gallery .inner-container>div:nth-of-type(1),
+    .art-gallery .inner-container>div:nth-of-type(2) {
+        align-items: center;
+    }
+
+    /* block quote */
+    .gallery blockquote {
+        max-width: 48ch;
+        margin: 0 auto;
+    }
+
+    /* cultural */
+    .cultural h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .cultural {
+        padding: 0 7rem 1.5rem 7rem;
+    }
+
+    /* features and highlights */
+    .features {
+        padding: 0 7rem;
+    }
+
+    .features .inner-container h2 {
+        padding: unset;
+        text-align: center;
+    }
+
+    .features .inner-container>div img {
+        min-width: 30%;
+    }
+
+    .features span {
+        font-weight: bold;
+    }
+}
